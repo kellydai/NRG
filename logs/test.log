@@ -1,0 +1,43 @@
+PS C:\Users\benj-\Desktop\Blockchain\NRG> truffle test
+Using network 'development'.
+
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\NRG.sol
+> Compiling .\node_modules\hardhat\console.sol
+> Compiling .\test\Test_NRG.sol
+> Compiling .\D:\VSCode\Truffle\MetaCoin\contracts\NRG.sol
+> Compiling truffle\Assert.sol
+> Compiling truffle\AssertAddress.sol
+> Compiling truffle\AssertAddressArray.sol
+> Compiling truffle\AssertBalance.sol
+> Compiling truffle\AssertBool.sol
+> Compiling truffle\AssertBytes32.sol
+> Compiling truffle\AssertBytes32Array.sol
+> Compiling truffle\AssertGeneral.sol
+> Compiling truffle\AssertInt.sol
+> Compiling truffle\AssertIntArray.sol
+> Compiling truffle\AssertString.sol
+> Compiling truffle\AssertUint.sol
+> Compiling truffle\AssertUintArray.sol
+> Artifacts written to C:\Users\benj-\AppData\Local\Temp\test--34624-53OWOJV2h2Td
+> Compiled successfully using:
+   - solc: 0.8.13+commit.abaa5c0e.Emscripten.clang
+
+
+  TestNRG
+    ✔ test_beforeAll (314ms)
+    ✔ test_calPrice (696ms)
+    ✔ test_authorization (536ms)
+    ✔ test_extraPower (350ms)
+    ✔ test_transfer (496ms)
+    ✔ test_powerConsume (451ms)
+    ✔ test_userEnquire (466ms)
+    ✔ test_adminEnquire (442ms)
+    ✔ test_powerTarget (623ms)
+    ✔ test_powerGenTotal (649ms)
+    ✔ test_fetchInfomation (592ms)
+
+
+  11 passing (21s)
