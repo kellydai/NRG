@@ -7,7 +7,7 @@ import "../node_modules/hardhat/console.sol";
 
 contract TestNRG {
    
-    NRG nrg;  //定义合约变量     
+    NRG nrg;  //identify variables     
    
     function test_beforeAll () public {
         
@@ -25,7 +25,7 @@ contract TestNRG {
         Assert.equal(nrg.calPrice(uint(10),uint(200)),uint(2000),"error calculate");
     }
     // function userEnquireTest () public {
-    //     // 使用 set（）函数设定 x数值为10 ，将其写入了simpleStorage中 
+    //     // using set（）functionality to set x to be 10 ，in simpleStorage
     //     // nrg.set(uint(10));
     //     nrg.userEnquire();
 
